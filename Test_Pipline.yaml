@@ -1,8 +1,3 @@
-# NEW
-trigger: none
-
-pool: Ubuntu
-
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+# hello from azure
+# hello from azure
+# NEW trigger: none pool: Ubuntu steps: - script: echo Hello, world! displayName: 'Run a one-line script'
