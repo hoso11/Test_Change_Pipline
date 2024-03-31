@@ -1,14 +1,2 @@
-trigger: none
-
-variables:
-  AZURE_DEVOPS_EXT_PAT: "3qfmbzr3garzkhtxvzpihwibkdt3x77yj3ctddn34a57b3frs2jq"
-
-
-pool: Ubuntu
-# 3qfmbzr3garzkhtxvzpihwibkdt3x77yj3ctddn34a57b3frs2jq
-steps:
-# Specify python version if you have side-by-side versions
-- task: UsePythonVersion@0
-  inputs:
-    versionSpec: '3.x'
-    architecture: 'x64'
+# hello from azure
+trigger: none variables: AZURE_DEVOPS_EXT_PAT: "3qfmbzr3garzkhtxvzpihwibkdt3x77yj3ctddn34a57b3frs2jq" pool: Ubuntu # 3qfmbzr3garzkhtxvzpihwibkdt3x77yj3ctddn34a57b3frs2jq steps: # Specify python version if you have side-by-side versions - task: UsePythonVersion@0 inputs: versionSpec: '3.x' architecture: 'x64'
