@@ -1,4 +1,10 @@
 schedules:
+- cron: 10 16 31 * *
+  displayName: Daily midnight build
+  branches:
+    include:
+    - main
+schedules:
 - cron: 01 16 31 * *
   displayName: Daily midnight build
   branches:
