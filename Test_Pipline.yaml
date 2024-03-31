@@ -1,7 +1,3 @@
-22 15 * * *
-20 15 Test_Pipline.yaml Test_Pipline.yaml Test_Pipline.yaml
-task goes here
-task goes here
 # NEW
 trigger: none
 
