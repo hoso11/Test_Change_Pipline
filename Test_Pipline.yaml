@@ -9,3 +9,36 @@ pool: Ubuntu
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
+Test_Pipline.yaml Test_Pipline.yaml Test_Pipline.yaml
+00 00 temp Test_Pipline.yaml temp Test_Pipline.yaml temp Test_Pipline.yaml
+# hello from azure
+# NEW
+trigger: none
+
+pool: Ubuntu
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+Test_Pipline.yaml Test_Pipline.yaml Test_Pipline.yaml
+00 00 temp Test_Pipline.yaml temp Test_Pipline.yaml temp Test_Pipline.yaml
+# hello from azure
+# NEW
+trigger: none
+
+pool: Ubuntu
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+Test_Pipline.yaml Test_Pipline.yaml Test_Pipline.yaml
+00 00 temp Test_Pipline.yaml temp Test_Pipline.yaml temp Test_Pipline.yaml
+# hello from azure
+# NEW
+trigger: none
+
+pool: Ubuntu
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
