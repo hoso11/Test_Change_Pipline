@@ -1,1 +1,14 @@
+schedules:
+- cron: 
+  displayName: Daily midnight build
+  branches:
+    include:
+    - main
+# NEW
+trigger: none
 
+pool: Ubuntu 
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
